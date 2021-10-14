@@ -51,6 +51,14 @@ public class Facebook {
 	}
 	
 	
+	WebElement user = driver.findElement(By.id("email"));
+	
+	user.sendKeys("sdadsdsds");
+	
+	WebElement pass = driver.findElement(By.cssSelector("*[id='pass']"));
+	pass.click();
+	
+	
 	
 	
 	
