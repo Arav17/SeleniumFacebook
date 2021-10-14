@@ -51,7 +51,10 @@ public class Facebook {
 	}
 	
 	
-	
+	driver.navigate().to("google.com");
+	driver.navigate().back();
+	driver.navigate().forward();
+	driver.navigate().refresh();
 	
 	
 		
